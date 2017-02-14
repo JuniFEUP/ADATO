@@ -18,11 +18,6 @@
 
 <body data-spy="scroll" data-target="#site-nav">
 
-  <div class="btn-group btn-group-xs audio-state">
-    <a href="javascript:void(0)" class="btn-primary" data-toggle="tooltip" title="Preview"
-      onclick="aud_play_pause()"><i id="iconBtn" class="pauseBtn"></i></a>
-  </div>
-
   <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
     <div class="container">
       <div class="navbar-header">
@@ -67,7 +62,7 @@
   <header id="site-header" class="section site-header valign-center">
     <div class="intro row">
 
-      <h2>19 Maio, 2016 / FEUP</h2>
+      <h2>5 Abril, 2017 / FEUP</h2>
       <br />
 
       <div class="site-branding">
@@ -88,12 +83,6 @@
       </div>
     </div>
   </header>
-
-  <div class="audio">
-      <audio id="audio" loop autoplay>
-          <source src="assets/audio/awesomeMusic.mp3" type='audio/mpeg; codecs="mp3"' />
-      </audio>
-  </div>
 
   <section id="about" class="section about">
     <div class="container">
@@ -180,12 +169,16 @@
         </div>
       </div>
 
+      EM BREVE...
+<!--
       <div class="row">
         <div class="col-sm-12 title">Crystal Sponsors</div>
       </div>
+
       <div class="row">
         <hr class="col-sm-4 cols col-md-offset-4">
       </div>
+
       <div class="row">
         <div class="col-sm-4">
           <a class="partner-box crystal-1"></a>
@@ -197,6 +190,7 @@
           <a class="partner-box crystal-3"></a>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm-4">
           <a class="partner-box crystal-4"></a>
@@ -214,9 +208,11 @@
       <div class="row">
         <div class="col-sm-12 title">Glass Sponsors</div>
       </div>
+
       <div class="row">
         <hr class="col-sm-4 cols col-md-offset-4">
       </div>
+
       <div class="row">
         <div class="col-sm-4">
           <a class="partner-box glass-1"></a>
@@ -228,6 +224,7 @@
           <a class="partner-box glass-3"></a>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm-4">
           <a class="partner-box glass-6"></a>
@@ -244,57 +241,55 @@
       <div class="row">
         <div class="col-sm-12 title">Convidados</div>
       </div>
+
       <div class="row">
         <hr class="col-sm-4 cols col-md-offset-4">
       </div>
+
       <div class="row">
-      <div class="col-sm-4">
-        <a class="partner-box convidado-3"></a>
+        <div class="col-sm-4">
+          <a class="partner-box convidado-3"></a>
+        </div>
+        <div class="col-sm-4">
+          <a class="partner-box convidado-1"></a>
+        </div>
+        <div class="col-sm-4">
+          <a class="partner-box convidado-2"></a>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <a class="partner-box convidado-1"></a>
-      </div>
-      <div class="col-sm-4">
-        <a class="partner-box convidado-2"></a>
-      </div>
-    </div>
+-->
     </div>
   </section>
 
   <section id="register" class="section bg-image-1 facts text-center">
     <div class="container">
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <i class="ion-ios-calendar"></i>
-          <h4>19<br>Maio</h4>
+          <h4>5<br>Abril</h4>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
           <i class="ion-ios-location"></i>
           <h4>FEUP<br></h4>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1">
           <i class="ion-pricetags"></i>
           <h4>Vagas<br>Limitadas</h4>
         </div>
-        <div class="col-sm-2">
-          <i class="ion-speakerphone"></i>
-          <h4>15<br>Empresas</h4>
-        </div>
       </div>
       <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-2">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3">
           <i class="ion-android-bar"></i>
           <h4>Business<br>Cocktail</h4>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-3">
           <i class="fa fa-gift" aria-hidden="true"></i>
           <h4>Goodies</h4>
-        </div>
-        <div class="col-sm-2">
-          <i class="fa fa-car" aria-hidden="true"></i>
-          <h4>UBER<br>Voucher 10€</h4>
         </div>
       </div>
       <!-- row -->
@@ -342,27 +337,12 @@
           </div>
         </div>
 
-
-        <div class="form-group row">
-          <div class="col-sm-4">
-            <input type="text" class="form-control" placeholder="Hobbie 1 *" id="hobbie1" name="hobbie1" required>
-          </div>
-
-          <div class="col-sm-4">
-            <input type="text" class="form-control" placeholder="Hobbie 2 *" id="hobbie2" name="hobbie2" required>
-          </div>
-
-          <div class="col-sm-4">
-            <input type="text" class="form-control" placeholder="Hobbie 3 *" id="hobbie3" name="hobbie3" required>
-          </div>
-        </div>
-
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Linkedin URL" id="linkedin" name="linkedin">
         </div>
         <div class="row col-sm-12">
-          <label for="cv">Upload CV</label>
-          <input type="file" placeholder="CV" id="cv" name="cv">
+          <label for="cv">Upload CV *</label>
+          <input type="file" placeholder="CV" id="cv" name="cv" required>
           <br>
         </div>
         <div class="row col-sm-12">
@@ -434,7 +414,7 @@
               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
                   <p>
-                    A 19 de Maio, às 17h30min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
+                    A 5 de Abril, às 17h30min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
                     <br /> Sala I(-105) FEUP, Faculdade de Engenharia da Universidade do Porto.
                   </p>
                 </div>
@@ -601,9 +581,10 @@
             <li><a href="https://www.linkedin.com/company/junifeup" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCY9IT5wgxAgqV5gebEzEKQQ" target="_blank"><i class="ion-social-youtube"></i></a></li>
 			-->
-			<li><a href="https://twitter.com/JuniFEUP" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             <li><a href="https://www.facebook.com/junifeup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
             <li><a href="https://www.linkedin.com/company/junifeup" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/junifeup/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/JuniFEUP" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCY9IT5wgxAgqV5gebEzEKQQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
           </ul>
         </div>
