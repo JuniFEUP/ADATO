@@ -15,7 +15,7 @@ html, * {
   background-color: rgb(15,30,39)!important; /*rgb(15,30,39)!important;*/
 }
 body {
-  color: #4e4e4e;
+  color: #252525;
   font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
   font-size: 16px;
   font-weight: 300;
@@ -50,7 +50,7 @@ ul li {
 .custom-list-icon li::before, .list-arrow-right li::before {
   position: absolute;
   left: 0;
-  color: #4e4e4e;
+  color: #252525;
   font-family: "Ionicons";
 }
 .social-block {
@@ -67,7 +67,7 @@ ul li {
 }
 .social-block li a i {
   font-size: 1.5em;
-  color: rgb(33, 35, 36);
+  color: #252525;
 }
 .social-block li a:hover, .social-block li a:focus {
   color: #000;
@@ -122,7 +122,7 @@ ul li {
   padding: 70px 0;
 }
 .section-title {
-  color: rgb(33, 35, 36);
+  color: #252525;
   letter-spacing: 1px;
   margin: 0 0 20px;
   text-transform: uppercase;
@@ -184,12 +184,12 @@ ul li {
 }
 .btn-black {
   color: #fff;
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
   /*#000;*/
 }
 .btn-black:hover, .btn-black:focus {
   color: #fff;
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
   /*#000;*/
 }
 
@@ -211,10 +211,10 @@ ul li {
 }
 
 .bg-image-1::before {
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
 }
 .bg-image-2::before {
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
 }
 @media (min-width: 768px) {
   .section {
@@ -238,7 +238,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
@@ -303,7 +303,7 @@ ul li {
   position: relative;
   text-align: center;
   /** MUDEI ESTA COR **/
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
   /*rgb(15,30,39)!important;*/
 }
 .site-header::before {
@@ -313,7 +313,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
   /*rgba(0, 0, 0, 0.5);*/
 }
 .site-header .intro {
@@ -507,7 +507,7 @@ ul li {
   margin-top: 15px;
 }
 .faq .panel-default > .panel-heading {
-  color: rgb(33, 35, 36);
+  color: #252525;
   background-color: #FFF;
   border-color: #FFF;
   border-radius: 0;
@@ -571,7 +571,7 @@ ul li {
 .site-footer {
   background-color: #FFF;
   /*#000;*/
-  color: rgb(33, 35, 36);
+  color: #252525;
   text-align: center;
   padding: 30px 0;
 }
@@ -600,7 +600,7 @@ ul li {
   letter-spacing: 5px;
 }
 .title {
-  color: rgb(33, 35, 36);
+  color: #252525;
   letter-spacing: 1px;
   margin: 50px 0 0 0;
   text-transform: uppercase;
@@ -608,7 +608,7 @@ ul li {
   font-size: 150%;
 }
 hr {
-  color: rgb(33, 35, 36);
+  color: #252525;
   border: 0;
   height: 0;
   /* Firefox... */
@@ -620,7 +620,7 @@ hr.style-five:after {
   /* Prevent margin collapse */
 }
 #quebra {
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
   /*#000;*/
   color: #fff;
   text-align: center;
@@ -632,7 +632,7 @@ h4 {
   font-weight: 400;
 }
 .faq {
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
 }
 .loc-text {
   color: #FFF;
@@ -650,7 +650,7 @@ h4 {
 }
 
 .location {
-  background-color: rgb(33, 35, 36);
+  background-color: #252525;
 }
 .location .section-title {
   color: #FFF;

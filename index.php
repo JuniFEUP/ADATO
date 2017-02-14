@@ -100,7 +100,7 @@
           </p>
 
           <figure>
-            <a href="http://www.junifeup.pt/">
+            <a href="http://www.junifeup.pt/" target="_blank">
               <img alt="" class="img-responsive juni" src="assets/images/about-us.jpg">
             </a>
           </figure>
@@ -114,7 +114,7 @@
 
           <p style="width:100%;">
             O Another Day @ The Office é uma sessão de cocktails que promove o networking entre estudantes e os líderes de grandes empresas. Aqui, encontrarás tudo o que precisas para te lançares no mercado de trabalho e começares já a traçar o teu futuro.
-            <br /> Em Maio, a JuniFEUP reúne dezenas de empresas e profissionais de inúmeras indústrias.
+            <br /> Em Abril, a JuniFEUP reúne dezenas de empresas e profissionais de inúmeras indústrias.
             <br /> Não são conferências. Não são bancas, nem CV’s.
             <br /> São as pessoas reunidas, juntas para revolucionar o networking entre o mundo do trabalho e o universo académico.
             <br /> As relações que criamos neste evento, sem gravatas, sem bancas, sem complicações, vão inspirar o teu crescimento pessoal e potenciar o arranque da tua carreira promissora.
@@ -264,30 +264,32 @@
   <section id="register" class="section bg-image-1 facts text-center">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-2">
           <i class="ion-ios-calendar"></i>
           <h4>5<br>Abril</h4>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-3">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
           <i class="ion-ios-location"></i>
           <h4>FEUP<br></h4>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-1">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
           <i class="ion-pricetags"></i>
           <h4>Vagas<br>Limitadas</h4>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-3">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
           <i class="ion-android-bar"></i>
           <h4>Business<br>Cocktail</h4>
         </div>
-        <div class="col-sm-1"></div>
+        <div class="col-sm-2"></div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-2">
           <i class="fa fa-gift" aria-hidden="true"></i>
           <h4>Goodies</h4>
         </div>
@@ -341,8 +343,8 @@
           <input type="text" class="form-control" placeholder="Linkedin URL" id="linkedin" name="linkedin">
         </div>
         <div class="row col-sm-12">
-          <label for="cv">Upload CV *</label>
-          <input type="file" placeholder="CV" id="cv" name="cv" required>
+          <label for="cv">Upload CV</label>
+          <input type="file" placeholder="CV" id="cv" name="cv">
           <br>
         </div>
         <div class="row col-sm-12">
