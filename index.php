@@ -48,7 +48,7 @@
           <li class="active"><a href="#site-header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">Sobre</a></li>
           <li><a href="#partner" class="smoothScroll">Empresas</a></li>
-          <li><a href="#register" class="smoothScroll">Inscrição</a></li>
+          <li><a href="#registration" class="smoothScroll">Inscrição</a></li>
           <li><a href="#faq" class="smoothScroll">FAQ</a></li>
           <li><a href="#media" class="smoothScroll">Media</a></li>
           <li><a href="#contact" class="smoothScroll">Contactos</a></li>
@@ -141,9 +141,9 @@
   <section id="quebra" class="section quebra">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4"> </div>
+        <div class="col-sm-3"> </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <figure>
             <a href="#">
               <img alt="" class="img-responsive logo_squar" src="assets/images/logo_square.png">
