@@ -10,7 +10,7 @@
 	$ano	= $_POST['ano'];
 	$linkedin	= $_POST['linkedin'];
 
-	//generate_credential($fname, $email, $curso, $h1, $h2, $h3); //JÃ¡ nÃo hÃ¡ hobbies, alterar!
+	//generate_credential($fname, $email, $curso, $h1, $h2, $h3); //Já não há hobbies, alterar!
 
 	if (isset($_FILES['cv']) && !empty($_FILES['cv']['name'])) {
 		$fileType = pathinfo(basename($_FILES["cv"]["name"]), PATHINFO_EXTENSION);
@@ -18,7 +18,7 @@
 		$target_file = $target_dir . $email . '.' .$fileType;
 		if ($fileType != "pdf" && $fileType != "jpg" && $fileType != "png" && $fileType != "jpeg")// && file_exists('../cv/'. $email . '.' .$fileType)) {
 		{
-			echo "Apenas sÃ£o aceites ficheiros JPG, JPEG, PNG & PDF.";
+			echo "Apenas são aceites ficheiros JPG, JPEG, PNG & PDF.";
 			return;
 		}
 		 /*Check file size
@@ -42,7 +42,7 @@
 
 	if($mail->send()) {
 		$form_data['success'] = true;
-		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscriÃÃo.\nCaso nÃ£o tenhas enviado o teu CV na inscriÃÃo ainda vais a tempo. Prepara-o e quando avisarmos terÃs oportunidade de nos enviar para o passarmos as empresas.\nPassaremos novas imformaÃÃes brevemente.\n\nAD@TO - sem bancas, sem gravatas, sem complicaÃÃes - a tua carreira, o teu futuro.\nby JuniFEUP
+		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscrição.\nCaso não tenhas enviado o teu CV ainda vais a tempo. Prepara-o e quando avisarmos terás oportunidade de nos enviar para o passarmos às empresas.\nPassaremos novas informações brevemente.\n\n\nAD@TO - sem bancas, sem gravatas, sem complicações - a tua carreira, o teu futuro.\nby JuniFEUP
 		$mail->clearAddresses();
 		$mail->clearAttachments();
 		$mail->addAddress($email);
