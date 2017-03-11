@@ -9,11 +9,8 @@
 	$curso	= $_POST['curso'];
 	$ano	= $_POST['ano'];
 	$linkedin	= $_POST['linkedin'];
-	$h1	= $_POST['hobbie1'];
-	$h2	= $_POST['hobbie2'];
-	$h3	= $_POST['hobbie3'];
 
-	//generate_credential($fname, $email, $curso, $h1, $h2, $h3);
+	//generate_credential($fname, $email, $curso, $h1, $h2, $h3); //JÃ¡ nÃo hÃ¡ hobbies, alterar!
 
 	if (isset($_FILES['cv']) && !empty($_FILES['cv']['name'])) {
 		$fileType = pathinfo(basename($_FILES["cv"]["name"]), PATHINFO_EXTENSION);
@@ -30,13 +27,13 @@
 			return;
 		}*/
 		if (!move_uploaded_file($_FILES["cv"]["tmp_name"], $target_file)) {
-			echo "Sorry, there was an error uploading your file.";
+			echo "Desculpa, ocorreu um erro no upload do teu CV.";
 			return;
 		}
 		$mail->addAttachment( $target_file , 'cv.pdf' );
 	}
 
-  	$message = "Name: $fname \nEmail: $email \nCurso: $curso \nAno: $ano \nHobbie1: $h1 \nHobbie2: $h2 \nHobbie3: $h3 \nLinkedin: $linkedin";
+  	$message = "Name: $fname \nEmail: $email \nCurso: $curso \nAno: $ano \nLinkedin: $linkedin";
 	$mail->addAddress('adato@junifeup.pt');
 	//$mail->addAttachment('../images/credentials/'.$email.'.jpeg', 'credential.jpeg');
 	$mail->CharSet = 'UTF-8';
@@ -45,7 +42,7 @@
 
 	if($mail->send()) {
 		$form_data['success'] = true;
-		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscriÃ§Ã£o.\nDaqui a nada entraremos em contacto contigo!\n\n\nAD@TO - sem bancas, sem gravata, sem complicaÃ§Ãµes - a tua carreira,  o teu futuro\n\n\nJuniFEUP";
+		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscriÃÃo.\nCaso nÃ£o tenhas enviado o teu CV na inscriÃÃo ainda vais a tempo. Prepara-o e quando avisarmos terÃs oportunidade de nos enviar para o passarmos as empresas.\nPassaremos novas imformaÃÃes brevemente.\n\nAD@TO - sem bancas, sem gravatas, sem complicaÃÃes - a tua carreira, o teu futuro.\nby JuniFEUP
 		$mail->clearAddresses();
 		$mail->clearAttachments();
 		$mail->addAddress($email);
