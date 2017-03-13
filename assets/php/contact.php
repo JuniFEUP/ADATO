@@ -42,7 +42,7 @@
 
 	if($mail->send()) {
 		$form_data['success'] = true;
-		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscrição.\nCaso não tenhas enviado o teu CV ainda vais a tempo. Prepara-o e quando avisarmos terás oportunidade de nos enviar para o passarmos às empresas.\nPassaremos novas informações brevemente.\n\n\nAD@TO - sem bancas, sem gravatas, sem complicações - a tua carreira, o teu futuro.\nby JuniFEUP
+		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscrição.\nCaso não tenhas enviado o teu CV ainda vais a tempo. Prepara-o e quando avisarmos terás oportunidade de nos enviar para o passarmos às empresas.\nPassaremos novas informações brevemente.\n\n\nAD@TO - sem bancas, sem gravatas, sem complicações - a tua carreira, o teu futuro.\nby JuniFEUP";
 		$mail->clearAddresses();
 		$mail->clearAttachments();
 		$mail->addAddress($email);
