@@ -1,6 +1,7 @@
 <?php
 	require 'ligacaoSMTP.php';
-	require 'generate_img.php';
+	//require 'generate_img.php';
+	require 'ligacaoSQL.php';
 
 	$form_data = ['success' => true];
 
@@ -10,7 +11,7 @@
 	$ano	= $_POST['ano'];
 	$linkedin	= $_POST['linkedin'];
 
-	//generate_credential($fname, $email, $curso, $h1, $h2, $h3); //Já não há hobbies, alterar!
+	//generate_credential($fname, $email, $curso, $h1, $h2, $h3); //Jï¿½ nï¿½o hï¿½ hobbies, alterar!
 
 	if (isset($_FILES['cv']) && !empty($_FILES['cv']['name'])) {
 		$fileType = pathinfo(basename($_FILES["cv"]["name"]), PATHINFO_EXTENSION);
@@ -18,7 +19,7 @@
 		$target_file = $target_dir . $email . '.' .$fileType;
 		if ($fileType != "pdf" && $fileType != "jpg" && $fileType != "png" && $fileType != "jpeg")// && file_exists('../cv/'. $email . '.' .$fileType)) {
 		{
-			echo "Apenas são aceites ficheiros JPG, JPEG, PNG & PDF.";
+			echo "Apenas sÃ£o aceites ficheiros JPG, JPEG, PNG & PDF.";
 			return;
 		}
 		 /*Check file size
@@ -33,8 +34,13 @@
 		$mail->addAttachment( $target_file , 'cv.pdf' );
 	}
 
-  	$message = "Name: $fname \nEmail: $email \nCurso: $curso \nAno: $ano \nLinkedin: $linkedin";
-	$mail->addAddress('adato@junifeup.pt');
+  	$message = "Name: $fname
+  				Email: $email
+  				Curso: $curso
+  				Ano: $ano
+  				Linkedin: $linkedin";
+	$mail->addAddress('pcova.dev@gmail.com');
+//	$mail->addAddress('adato@junifeup.pt');
 	//$mail->addAttachment('../images/credentials/'.$email.'.jpeg', 'credential.jpeg');
 	$mail->CharSet = 'UTF-8';
 	$mail->Subject = 'Registo AD@TO';
@@ -42,7 +48,7 @@
 
 	if($mail->send()) {
 		$form_data['success'] = true;
-		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscrição.\nCaso não tenhas enviado o teu CV ainda vais a tempo. Prepara-o e quando avisarmos terás oportunidade de nos enviar para o passarmos às empresas.\nPassaremos novas informações brevemente.\n\n\nAD@TO - sem bancas, sem gravatas, sem complicações - a tua carreira, o teu futuro.\nby JuniFEUP";
+		$replymsg = "Obrigado $fname pelo teu registo!\n\nEstamos a processar a tua inscriÃ§Ã£o.\nCaso nÃ£o tenhas enviado o teu CV ainda vais a tempo. Prepara-o e quando avisarmos terÃ¡s oportunidade de nos enviar para o passarmos as empresas.\nPassaremos novas informaÃ§Ãµes brevemente.\n\n\nAD@TO - sem bancas, sem gravatas, sem complicaÃ§Ãµees - a tua carreira, o teu futuro.\nby JuniFEUP";
 		$mail->clearAddresses();
 		$mail->clearAttachments();
 		$mail->addAddress($email);
@@ -50,6 +56,28 @@
 		$mail->Body = $replymsg;
 		$mail->send();
 	}
+
+	// execute the query
+	// query returns FALSE on error, and a result object on success
+	if ($db == null) {
+		echo "No database!\n";
+		die();
+	}
+
+	// create a query that should return a single record
+	$sql =<<<EOF
+		  INSERT INTO PARTICIPANTS (name, email, course_year, course, linkedin, registration_date)
+		  VALUES ('$fname', '$email', '$ano', '$curso', '$linkedin', 'CURRENT_TIMESTAMP');
+EOF;
+
+	$ret = $db->exec($sql);
+	if(!$ret){
+		echo $db->lastErrorMsg();
+		die();
+	} else {
+		echo "Records created successfully\n";
+	}
+	$db->close();
 	
 	header("Location: http://$_SERVER[HTTP_HOST]?success=".$form_data['success']."#registration");
 	die();
