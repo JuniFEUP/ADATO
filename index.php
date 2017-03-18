@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" href="assets/images/titleIcon.ico" />
-  <title>AD@TO</title>
+  <title>ADATO</title>
 
   <!-- css -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#site-nav">
@@ -113,18 +114,18 @@
           <h3 class="section-title multiple-title">Sobre o Evento</h3>
 
           <p style="width:100%;">
-            O Another Day @ The Office é uma sessão de cocktails que promove o networking entre estudantes e os líderes de grandes empresas. Aqui, encontrarás tudo o que precisas para te lançares no mercado de trabalho e começares já a traçar o teu futuro.
-            <br /> Em Abril, a JuniFEUP reúne dezenas de empresas e profissionais de inúmeras indústrias.
+            O Another Day At The Office é uma sessão de cocktails que promove o networking entre estudantes e os líderes de grandes empresas. Aqui, encontrarás tudo o que precisas para te lançares no mercado de trabalho e começares já a traçar o teu futuro.
+            <br /><br /> Em Abril, a JuniFEUP reúne dezenas de empresas e profissionais de inúmeras indústrias.
             <br /> Não são conferências. Não são bancas, nem CV’s.
             <br /> São as pessoas reunidas, juntas para revolucionar o networking entre o mundo do trabalho e o universo académico.
-            <br /> As relações que criamos neste evento, sem gravatas, sem bancas, sem complicações, vão inspirar o teu crescimento pessoal e potenciar o arranque da tua carreira promissora.
+            <br /><br /> As relações que criamos neste evento, sem gravatas, sem bancas, sem complicações, vão inspirar o teu crescimento pessoal e potenciar o arranque da tua carreira promissora.
             <br /> Não precisas de CV’s - deixa a papelada para nós! Tudo o que tens de fazer é seres tu mesmo e convencer possíveis empregadores que és o profissional de quem eles realmente precisam.
             <br />
             <br />
           </p>
           <div class="col-sm-12" style="text-align: center; font-weight: bold; ">
 
-            ANOTHER DAY @ THE OFFICE.
+            ANOTHER DAY AT THE OFFICE.
             <br /> Sem gravata.
             <br /> Sem bancas.
             <br /> Sem complicações.
@@ -169,28 +170,27 @@
         </div>
       </div>
 
-      EM BREVE...
-<!--
+
       <div class="row">
         <div class="col-sm-12 title">Crystal Sponsors</div>
       </div>
 
-      <div class="row">
-        <hr class="col-sm-4 cols col-md-offset-4">
-      </div>
+      <!--<div class="row">
+        <hr class="col-sm-4 cols col-sm-offset-4">
+      </div>-->
 
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-sm-offset-4">
           <a class="partner-box crystal-1"></a>
-        </div>
+        </div><!--
         <div class="col-sm-4">
           <a class="partner-box crystal-2"></a>
         </div>
         <div class="col-sm-4">
           <a class="partner-box crystal-3"></a>
-        </div>
+        </div>-->
       </div>
-
+<!--
       <div class="row">
         <div class="col-sm-4">
           <a class="partner-box crystal-4"></a>

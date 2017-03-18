@@ -9,7 +9,7 @@
  */
 
 html, * {
-  font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   /** MUDEI ESTA COR **
   background-color: rgb(15,30,39)!important; /*rgb(15,30,39)!important;*/
@@ -314,6 +314,14 @@ ul li {
   bottom: 0;
   left: 0;
   background-color: #252525;
+  background-image: url('../images/background.png');
+  opacity : 0.1;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
   /*rgba(0, 0, 0, 0.5);*/
 }
 .site-header .intro {
@@ -592,6 +600,7 @@ ul li {
   opacity: 0.6;
 }
 .headerBTN {
+  margin-top: 30px;
   color: #FFF;
   font-size: 25px;
 }
