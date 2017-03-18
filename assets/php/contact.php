@@ -34,11 +34,7 @@
 		$mail->addAttachment( $target_file , 'cv.pdf' );
 	}
 
-  	$message = "Name: $fname
-  				Email: $email
-  				Curso: $curso
-  				Ano: $ano
-  				Linkedin: $linkedin";
+  	$message = "Name: $fname\nEmail: $email\nCurso: $curso\nAno: $ano\nLinkedin: $linkedin";
 //	$mail->addAddress('pcova.dev@gmail.com');
 	$mail->addAddress('adato@junifeup.pt');
 	//$mail->addAttachment('../images/credentials/'.$email.'.jpeg', 'credential.jpeg');
@@ -66,8 +62,8 @@
 
 	// create a query that should return a single record
 	$sql =<<<EOF
-		  INSERT INTO PARTICIPANTS (name, email, course_year, course, linkedin, registration_date)
-		  VALUES ('$fname', '$email', '$ano', '$curso', '$linkedin', 'CURRENT_TIMESTAMP');
+		  INSERT INTO participants (name, email, course_year, course, linkedin)
+		  VALUES ('$fname', '$email', '$ano', '$curso', '$linkedin');
 EOF;
 
 	$ret = $db->exec($sql);
