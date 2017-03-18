@@ -39,8 +39,8 @@
   				Curso: $curso
   				Ano: $ano
   				Linkedin: $linkedin";
-	$mail->addAddress('pcova.dev@gmail.com');
-//	$mail->addAddress('adato@junifeup.pt');
+//	$mail->addAddress('pcova.dev@gmail.com');
+	$mail->addAddress('adato@junifeup.pt');
 	//$mail->addAttachment('../images/credentials/'.$email.'.jpeg', 'credential.jpeg');
 	$mail->CharSet = 'UTF-8';
 	$mail->Subject = 'Registo AD@TO';
