@@ -181,7 +181,7 @@
 
       <div class="row">
         <div class="col-sm-3 col-sm-offset-2">
-          <a class="partner-box crystal-1"></a>
+          <a  href="http://www.proefgroup.com/pt/" target="_blank" class="partner-box crystal-1"></a>
         </div>
         <div class="col-sm-3">
           <a class="partner-box crystal-2"></a>
