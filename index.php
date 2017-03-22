@@ -180,12 +180,12 @@
       </div>-->
 
       <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">
+        <div class="col-sm-4 col-sm-offset-2">
           <a class="partner-box crystal-1"></a>
-        </div><!--
+        </div>
         <div class="col-sm-4">
           <a class="partner-box crystal-2"></a>
-        </div>
+        </div><!--
         <div class="col-sm-4">
           <a class="partner-box crystal-3"></a>
         </div>-->
