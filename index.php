@@ -180,15 +180,15 @@
       </div>-->
 
       <div class="row">
-        <div class="col-sm-4 col-sm-offset-2">
-          <a class="partner-box crystal-1"></a>
+        <div class="col-sm-3 col-sm-offset-2">
+          <a  href="http://www.proefgroup.com/pt/" target="_blank" class="partner-box crystal-1"></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <a class="partner-box crystal-2"></a>
-        </div><!--
-        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-3">
           <a class="partner-box crystal-3"></a>
-        </div>-->
+        </div>
       </div>
 <!--
       <div class="row">
@@ -203,23 +203,19 @@
         </div>
       </div>
 
-
+-->
 
       <div class="row">
         <div class="col-sm-12 title">Glass Sponsors</div>
       </div>
 
       <div class="row">
-        <hr class="col-sm-4 cols col-md-offset-4">
-      </div>
-
-      <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-2 col-sm-offset-4">
           <a class="partner-box glass-1"></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-2">
           <a class="partner-box glass-2"></a>
-        </div>
+        </div><!--
         <div class="col-sm-4">
           <a class="partner-box glass-3"></a>
         </div>
@@ -235,29 +231,18 @@
         <div class="col-sm-4">
           <a class="partner-box glass-4"></a>
         </div>
-      </div>
+      </div>-->
 
 
       <div class="row">
-        <div class="col-sm-12 title">Convidados</div>
+        <div class="col-sm-12 title">Parceiros Institucionais</div>
       </div>
 
       <div class="row">
-        <hr class="col-sm-4 cols col-md-offset-4">
-      </div>
-
-      <div class="row">
-        <div class="col-sm-4">
-          <a class="partner-box convidado-3"></a>
-        </div>
-        <div class="col-sm-4">
-          <a class="partner-box convidado-1"></a>
-        </div>
-        <div class="col-sm-4">
-          <a class="partner-box convidado-2"></a>
+        <div class="col-sm-2 col-sm-offset-5">
+          <a class="partner-box inst-1"></a>
         </div>
       </div>
--->
     </div>
   </section>
 
