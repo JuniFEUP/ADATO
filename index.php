@@ -240,17 +240,8 @@
 
       <div class="row">
         <div class="col-sm-2 col-sm-offset-2">
-          <a href="https://www.aefeup.pt/pt/" target="_blank" class="partner-box inst-1"></a>
+          <a class="partner-box inst-1"></a>
         </div>
-        <div class="col-sm-2">
-          <a href="http://www.engenhariaradio.pt/" target="_blank" class="partner-box inst-2"></a>
-        </div>
-        <div class="col-sm-2">
-          <a href="https://sigarra.up.pt/feup/pt/web_page.Inicial" target="_blank" class="partner-box inst-3"></a>
-        </div>
-        <div class="col-sm-2">
-          <a href="https://paginas.fe.up.pt/~careerf16/" target="_blank" class="partner-box inst-4"></a>
-       </div>
         <div class="col-sm-2">
           <a class="partner-box inst-2"></a>
         </div>
