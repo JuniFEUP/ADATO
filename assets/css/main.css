@@ -434,26 +434,36 @@ ul li {
   width: 100%;
 }
 .partner .crystal-3 {
-  background: url(../images/partner/crystal-3.png) no-repeat center center/contain;
+  background: url(../images/partner/crystal-3.jpg) no-repeat center center/contain;
   width: 100%;
 }
 
 .partner .glass-1 {
   background: url(../images/partner/glass-1.jpg) no-repeat center center/contain;
-  width: 60%;
+  width: 50%;
 }
 .partner .glass-2 {
   background: url(../images/partner/glass-2.png) no-repeat center center/contain;
-  width: 60%;
+  width: 50%;
 }
 .partner .inst-1 {
   background: url(../images/partner/inst-1.png) no-repeat center center/contain;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
 }
 .partner .inst-2 {
   background: url(../images/partner/inst-2.png) no-repeat center center/contain;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
+}
+.partner .inst-3 {
+  background: url(../images/partner/inst-3.png) no-repeat center center/contain;
+  width: 50%;
+  margin: 0 auto;
+}
+.partner .inst-4 {
+  background: url(../images/partner/inst-4.jpg) no-repeat center center/contain;
+  width: 50%;
   margin: 0 auto;
 }
 
