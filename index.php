@@ -250,6 +250,15 @@
         </div>
         <div class="col-sm-2">
           <a href="https://paginas.fe.up.pt/~careerf16/" target="_blank" class="partner-box inst-4"></a>
+       </div>
+        <div class="col-sm-2">
+          <a class="partner-box inst-2"></a>
+        </div>
+        <div class="col-sm-2">
+          <a class="partner-box inst-3"></a>
+        </div>
+        <div class="col-sm-2">
+          <a class="partner-box inst-4"></a>
         </div>
       </div>
     </div>
