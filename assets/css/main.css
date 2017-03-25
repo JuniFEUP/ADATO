@@ -437,33 +437,41 @@ ul li {
   background: url(../images/partner/crystal-3.jpg) no-repeat center center/contain;
   width: 100%;
 }
+.partner .crystal-4 {
+  background: url(../images/partner/crystal-4.png) no-repeat center center/contain;
+  width: 100%;
+}
 
 .partner .glass-1 {
   background: url(../images/partner/glass-1.jpg) no-repeat center center/contain;
-  width: 50%;
+  width: 40%;
 }
 .partner .glass-2 {
   background: url(../images/partner/glass-2.png) no-repeat center center/contain;
-  width: 50%;
+  width: 2  0%;
+}
+.partner .glass-3 {
+  background: url(../images/partner/glass-3.png) no-repeat center center/contain;
+  width: 40%;
 }
 .partner .inst-1 {
   background: url(../images/partner/inst-1.png) no-repeat center center/contain;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
 .partner .inst-2 {
   background: url(../images/partner/inst-2.png) no-repeat center center/contain;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
 .partner .inst-3 {
-  background: url(../images/partner/inst-3.png) no-repeat center center/contain;
-  width: 50%;
+  background: url(../images/partner/inst-3.jpg) no-repeat center center/contain;
+  width: 30%;
   margin: 0 auto;
 }
 .partner .inst-4 {
-  background: url(../images/partner/inst-4.jpg) no-repeat center center/contain;
-  width: 50%;
+  background: url(../images/partner/inst-4.png) no-repeat center center/contain;
+  width: 30%;
   margin: 0 auto;
 }
 

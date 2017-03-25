@@ -180,14 +180,19 @@
       </div>-->
 
       <div class="row">
-        <div class="col-sm-3 col-sm-offset-2">
+        <div class="col-sm-4">
           <a  href="http://www.proefgroup.com/pt/" target="_blank" class="partner-box crystal-1"></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <a href="http://www.nos.pt" target="_blank" class="partner-box crystal-2"></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <a href="https://home.kpmg.com/pt/en/home.html" target="_blank" class="partner-box crystal-3"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <a  href="http://www.sonaeim.com" target="_blank" class="partner-box crystal-4"></a>
         </div>
       </div>
 <!--
@@ -210,28 +215,16 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-2 col-sm-offset-4">
+        <div class="col-sm-4">
           <a href="http://www.itgrow.pt/pt/inicio" target="_blank" class="partner-box glass-1"></a>
         </div>
-        <div class="col-sm-2">
-          <a href="http://www.criticalsoftware.com/pt/homepage" target="_blank" class="partner-box glass-2"></a>
-        </div><!--
         <div class="col-sm-4">
-          <a class="partner-box glass-3"></a>
+          <a href="http://www.criticalsoftware.com/pt/homepage" target="_blank" class="partner-box glass-2"></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="http://www.ageas.pt/" target="_blank" class="partner-box glass-3"></a>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-sm-4">
-          <a class="partner-box glass-6"></a>
-        </div>
-        <div class="col-sm-4">
-          <a class="partner-box glass-5"></a>
-        </div>
-        <div class="col-sm-4">
-          <a class="partner-box glass-4"></a>
-        </div>
-      </div>-->
 
 
       <div class="row">
@@ -239,16 +232,16 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-2 col-sm-offset-2">
+        <div class="col-sm-3">
           <a class="partner-box inst-1"></a>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <a class="partner-box inst-2"></a>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <a class="partner-box inst-3"></a>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <a class="partner-box inst-4"></a>
         </div>
       </div>
