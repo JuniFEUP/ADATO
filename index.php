@@ -194,6 +194,18 @@
         <div class="col-sm-4">
           <a  href="http://www.sonaeim.com" target="_blank" class="partner-box crystal-4"></a>
         </div>
+        <div class="col-sm-4">
+          <a  href="https://www.natixis.com" target="_blank" class="partner-box crystal-5"></a>
+        </div>
+        <div class="col-sm-4">
+          <a  href="http://www.cin.pt" target="_blank" class="partner-box crystal-6"></a>
+        </div>
+        <div class="col-sm-4">
+          <a  href="http://www.ocp.pt/" target="_blank" class="partner-box crystal-7"></a>
+        </div>
+        <div class="col-sm-4">
+          <a  href="http://www.altran.pt/" target="_blank" class="partner-box crystal-8"></a>
+        </div>
       </div>
 <!--
       <div class="row">
@@ -215,14 +227,17 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <a href="http://www.itgrow.pt/pt/inicio" target="_blank" class="partner-box glass-1"></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <a href="http://www.criticalsoftware.com/pt/homepage" target="_blank" class="partner-box glass-2"></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <a href="http://www.ageas.pt/" target="_blank" class="partner-box glass-3"></a>
+        </div>
+        <div class="col-sm-3">
+          <a href="https://www.sonae.pt" target="_blank" class="partner-box glass-4"></a>
         </div>
       </div>
 
