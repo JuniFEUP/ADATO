@@ -206,6 +206,9 @@
         <div class="col-sm-4">
           <a  href="http://www.altran.pt/" target="_blank" class="partner-box crystal-8"></a>
         </div>
+        <div class="col-sm-4">
+          <a  href="http://www.ey.com/pt/en/home" target="_blank" class="partner-box crystal-9"></a>
+        </div>
       </div>
 <!--
       <div class="row">
@@ -238,6 +241,11 @@
         </div>
         <div class="col-sm-3">
           <a href="https://www.sonae.pt" target="_blank" class="partner-box glass-4"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="" target="_blank" class="partner-box glass-5"></a>
         </div>
       </div>
 

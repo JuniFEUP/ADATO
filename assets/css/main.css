@@ -457,6 +457,10 @@ ul li {
   background: url(../images/partner/crystal-8.jpg) no-repeat center center/contain;
   width: 100%;
 }
+.partner .crystal-9 {
+  background: url(../images/partner/crystal-9.jpg) no-repeat center center/contain;
+  width: 90%;
+}
 
 .partner .glass-1 {
   background: url(../images/partner/glass-1.jpg) no-repeat center center/contain;
@@ -473,6 +477,10 @@ ul li {
 .partner .glass-4 {
   background: url(../images/partner/glass-4.png) no-repeat center center/contain;
   width: 70%;
+}
+.partner .glass-5 {
+  background: url(../images/partner/glass-5.png) no-repeat center center/contain;
+  width: 84%;
 }
 .partner .inst-1 {
   background: url(../images/partner/inst-1.png) no-repeat center center/contain;
