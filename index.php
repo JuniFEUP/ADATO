@@ -426,7 +426,7 @@
               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
                   <p>
-                    A 5 de Abril, às 17h30min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
+                    A 5 de Abril, às 16h00min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
                     <br /> Sala I(-105) FEUP, Faculdade de Engenharia da Universidade do Porto.
                   </p>
                 </div>
