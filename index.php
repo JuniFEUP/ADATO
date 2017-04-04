@@ -240,12 +240,12 @@
           <a href="http://www.ageas.pt/" target="_blank" class="partner-box glass-3"></a>
         </div>
         <div class="col-sm-3">
-          <a href="https://www.sonae.pt" target="_blank" class="partner-box glass-4"></a>
+          <a href="http://www.vodafone.pt" target="_blank" class="partner-box glass-4"></a>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-3">
-          <a href="" target="_blank" class="partner-box glass-5"></a>
+          <a href="https://www.borgwarner.com" target="_blank" class="partner-box glass-5"></a>
         </div>
       </div>
 
