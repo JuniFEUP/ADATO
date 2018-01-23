@@ -350,7 +350,7 @@
           <input type="text" class="form-control" placeholder="Linkedin URL" id="linkedin" name="linkedin">
         </div>
         <div class="row col-sm-12">
-          <label for="cv">Upload CV</label>
+          <label for="cv">Carregar CV</label>
           <input type="file" placeholder="CV" id="cv" name="cv">
           <br>
         </div>
@@ -361,7 +361,7 @@
         </div>
 
         <div class="text-center mt20">
-          <button type="submit" class="btn btn-black" id="registration-submit-btn">Submit</button>
+          <button type="submit" class="btn btn-black" id="registration-submit-btn">Submeter</button>
         </div>
       </form>
     </div>
