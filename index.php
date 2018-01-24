@@ -25,7 +25,7 @@
 
         <!-- logo -->
         <div class="site-branding">
-          <a class="logo" href="index.php">
+          <a class="logo" href="#top">
 
             <!-- logo image  -->
             <img src="assets/images/logo1.png" alt="JuniFEUP" style="width:150px;height: auto;">
@@ -79,8 +79,11 @@
         </a>
       </div>
       <div class="btns">
-        <a class="btn headerBTN" id="video" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
-        <a class="btn smoothScroll headerBTN" href="#registration">Inscreve-te</a>
+	<a class="btn headerBTN" id="video" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+	<ul>
+          <li><a class="smoothScroll headerBTN" href="#registration">Inscreve-te</a></li>
+	  <li><a class="smoothScroll headerBTN" href="#about">Sabe Mais</a></li>
+	</ul>
       </div>
     </div>
   </header>
@@ -115,11 +118,9 @@
 
           <p style="width:100%;">
             O Another Day At The Office é uma sessão de cocktails que promove o networking entre estudantes e os líderes de grandes empresas. Aqui, encontrarás tudo o que precisas para te lançares no mercado de trabalho e começares já a traçar o teu futuro.
-            <br /><br /> Em Abril, a JuniFEUP reúne dezenas de empresas e profissionais de inúmeras indústrias.
-            <br /> Não são conferências. Não são bancas, nem CV’s.
-            <br /> São as pessoas reunidas, juntas para revolucionar o networking entre o mundo do trabalho e o universo académico.
+            <br /><br /> Em Abril, a JuniFEUP reúne dezenas de empresas e profissionais de inúmeras indústrias. Não são conferências. Não são bancas, nem CV’s. São as pessoas reunidas, juntas para revolucionar o networking entre o mundo do trabalho e o universo académico.
             <br /><br /> As relações que criamos neste evento, sem gravatas, sem bancas, sem complicações, vão inspirar o teu crescimento pessoal e potenciar o arranque da tua carreira promissora.
-            <br /> Não precisas de CV’s - deixa a papelada para nós! Tudo o que tens de fazer é seres tu mesmo e convencer possíveis empregadores que és o profissional de quem eles realmente precisam.
+            <br /><br /> Não precisas de CV’s - deixa a papelada para nós! Tudo o que tens de fazer é seres tu mesmo e convencer possíveis empregadores que és o profissional de quem eles realmente precisam.
             <br />
             <br />
           </p>
@@ -361,7 +362,7 @@
         </div>
 
         <div class="text-center mt20">
-          <button type="submit" class="btn btn-black" id="registration-submit-btn">Submeter</button>
+          <button type="submit" class="headerBTN" id="registration-submit-btn">Submeter</button>
         </div>
       </form>
     </div>
