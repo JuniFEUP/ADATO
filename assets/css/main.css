@@ -764,6 +764,16 @@ h4 {
   opacity: 1;
 }
 
+.carousel-inner {
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+	height: 400px;
+    }
+}
+
 /*.carousel-control span{
   color: rgb(33, 35, 36)!important;
 }
