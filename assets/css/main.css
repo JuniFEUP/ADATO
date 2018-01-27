@@ -765,7 +765,13 @@ h4 {
 }
 
 .carousel-inner {
-    height: 300px;
+    height: 200px;
+}
+
+@media (min-width: 576px) {
+    .carousel-inner {
+	height: 300px;
+    }
 }
 
 @media (min-width: 768px) {

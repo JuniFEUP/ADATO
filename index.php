@@ -63,7 +63,7 @@
   <header id="site-header" class="section site-header valign-center">
     <div class="intro row">
 
-      <h2>5 Abril, 2017 / FEUP</h2>
+      <h2>5 Abril, 2018 @ FEUP</h2>
       <br />
 
       <div class="site-branding">
@@ -425,7 +425,7 @@
                 <div class="panel-body">
                   <p>
                     A 5 de Abril, às 16h00min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
-                    <br /> Sala I(-105) FEUP, Faculdade de Engenharia da Universidade do Porto.
+                    <br /> Sala I (-105) FEUP, Faculdade de Engenharia da Universidade do Porto.
                   </p>
                 </div>
               </div>
@@ -565,7 +565,7 @@
           <address>
             <p class="loc-text">
               <i class="fa fa-briefcase" aria-hidden="true"></i> JuniFEUP<br /><br />
-              <i class="fa fa-university" aria-hidden="true"></i> FEUP, sala I(-105)<br /><br />
+              <i class="fa fa-university" aria-hidden="true"></i> FEUP, sala I (-105)<br /><br />
               <i class="fa fa-map-marker" aria-hidden="true"></i> Rua Dr. Roberto Frias, FEUP I (-105)<br /><br />
               <i class="fa fa-phone" aria-hidden="true"></i> +351 225 081 554<br /><br />
               <i class="fa fa-envelope-o" aria-hidden="true"></i> adato@junifeup.pt
