@@ -8,7 +8,7 @@
  * 2.0 Global Style
  */
 
-html, * {
+html {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   /** MUDEI ESTA COR **
@@ -16,10 +16,11 @@ html, * {
 }
 body {
   color: #252525;
-  font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+  /* font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace; */
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.5;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -276,7 +277,7 @@ ul li {
 .site-branding {
   float: left;
   margin-top: 0;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .site-branding .logo {
   color: #fff;
@@ -329,9 +330,9 @@ ul li {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  width: 100%;
+  /* width: 100%; */
   z-index: 1;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 .site-header .intro h2 {
   margin-top: 0px;
@@ -613,14 +614,56 @@ ul li {
 .juni:hover {
   opacity: 0.6;
 }
+.btns ul {
+  list-style: none;
+  padding-left: 0;
+}
+.btns ul li {
+    display: inline;
+    padding: 0 5px;
+}
 .headerBTN {
-  margin-top: 30px;
+  /* margin-top: 30px;
   color: #FFF;
-  font-size: 25px;
+  font-size: 25px;*/
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+  background: #fafafa;
+  background-color: #fafafa;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #252525;
+  text-decoration: none;
+  transition: all .15s ease;
 }
 .headerBTN:hover {
-  color: #FFF;
-  letter-spacing: 5px;
+  /* color: #FFF;
+  letter-spacing: 5px; */
+  text-decoration: none;
+  color: #252525;
+  -ms-transform: translate(0px, -1px); /* IE 9 */
+  -webkit-transform: translate(0px, -1px); /* Safari */
+  transform: translate(0px, -1px);
+}
+.headerBTN:active, .headerBTN:focus {
+  text-decoration: none;
+  color: #252525;
+}
+#registration-submit-btn {
+  background-color: #252525;
+  color: #fafafa;
+  border: none;
+}
+li:first-child .headerBTN {
+  color: #fff;
+  background-color: #16898d;
 }
 .title {
   color: #252525;
@@ -720,6 +763,22 @@ h4 {
 .carousel-indicators .active{
   background-color: rgb(33, 35, 36)!important;
   opacity: 1;
+}
+
+.carousel-inner {
+    height: 200px;
+}
+
+@media (min-width: 576px) {
+    .carousel-inner {
+	height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+	height: 400px;
+    }
 }
 
 /*.carousel-control span{
