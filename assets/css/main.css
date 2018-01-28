@@ -277,7 +277,7 @@ ul li {
 .site-branding {
   float: left;
   margin-top: 0;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .site-branding .logo {
   color: #fff;
@@ -330,9 +330,9 @@ ul li {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  width: 100%;
+  /* width: 100%; */
   z-index: 1;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 .site-header .intro h2 {
   margin-top: 0px;
@@ -616,6 +616,7 @@ ul li {
 }
 .btns ul {
   list-style: none;
+  padding-left: 0;
 }
 .btns ul li {
     display: inline;

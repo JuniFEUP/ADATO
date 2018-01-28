@@ -61,11 +61,10 @@
   </nav>
 
   <header id="site-header" class="section site-header valign-center">
+      
     <div class="intro row">
-
-      <h2>5 Abril, 2018 @ FEUP</h2>
+      <h2>Abril, 2018 @ FEUP</h2>
       <br />
-
       <div class="site-branding">
         <a class="logo" href="index.php">
 
@@ -276,7 +275,7 @@
 
         <div class="col-sm-2">
           <i class="ion-ios-calendar"></i>
-          <h4>5<br>Abril</h4>
+          <h4>Abril</h4>
         </div>
         <div class="col-sm-2"></div>
         <div class="col-sm-2">
@@ -424,7 +423,7 @@
               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
                   <p>
-                    A 5 de Abril, às 16h00min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
+                    No início de Abril, às 16h00min, a JuniFEUP reunirá dezenas de empresas e profissionais das mais variadas áreas.
                     <br /> Sala I (-105) FEUP, Faculdade de Engenharia da Universidade do Porto.
                   </p>
                 </div>
