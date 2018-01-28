@@ -560,7 +560,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <h3 class="section-title">Event Location</h3>
+          <h3 class="section-title">Contactos</h3>
           <address>
             <p class="loc-text">
               <i class="fa fa-briefcase" aria-hidden="true"></i> JuniFEUP<br /><br />
