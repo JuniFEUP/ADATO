@@ -166,7 +166,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Empresas Presentes</h3>
+          <h3 class="section-title">Empresas Presentes em Edições Anteriores</h3>
         </div>
       </div>
 
@@ -406,7 +406,7 @@
                   <p>
                     Evento que promove o Networking e a possibilidade dos estudantes estabelecerem contactos que facilitem a sua entrada no mercado de trabalho.
                     </br>
-                    Desmarca-te dos milhares de estudantes que são formados todos os anos no ensino superior e vem garantir o teu futuro.
+                    Demarca-te dos milhares de estudantes que são formados todos os anos no ensino superior e vem garantir o teu futuro.
                   </p>
                 </div>
               </div>
@@ -441,7 +441,7 @@
               <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                 <div class="panel-body">
                   <p>
-                    O custo de entrada é de 3€. O pagamento terá de ser feito através de transferência bancária. Receberás um email após a inscrição com todos os detalhes.
+                    O custo de entrada é de 5€. O pagamento terá de ser feito através de transferência bancária. Receberás um email após a inscrição com todos os detalhes.
                   </p>
                 </div>
               </div>
