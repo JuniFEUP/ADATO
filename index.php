@@ -47,12 +47,12 @@
 
           <!-- navigation menu -->
           <li class="active"><a href="#site-header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">Sobre</a></li>
-          <li><a href="#partner" class="smoothScroll">Empresas</a></li>
-          <li><a href="#registration" class="smoothScroll">Inscrição</a></li>
-          <li><a href="#faq" class="smoothScroll">FAQ</a></li>
-          <li><a href="#media" class="smoothScroll">Media</a></li>
-          <li><a href="#contact" class="smoothScroll">Contactos</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#partner">Empresas</a></li>
+          <li><a href="#registration">Inscrição</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#contact">Contactos</a></li>
         </ul>
 
       </div>
